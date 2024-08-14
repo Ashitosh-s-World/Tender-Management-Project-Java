@@ -6,6 +6,19 @@
   <packaging>war</packaging>
   <name>Tender Management System</name>
   <description>Web Application for Online Tender Management</description>
+
+        <properties>
+                <jdk.version>1.8</jdk.version>
+                <spring.version>5.1.2.RELEASE</spring.version>
+                <junit.version>4.11</junit.version>
+                <log4j.version>1.2.17</log4j.version>
+                <sonar.host.url>http://172.31.41.88:9000/</sonar.host.url>
+                <sonar.login>squ_c7ec4b9e8dfa4ef78f4dc1e2d44ec096bd226b45</sonar.login>
+                <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+                <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+        </properties>
+
   <build>
     <sourceDirectory>src</sourceDirectory>
     <resources>
@@ -35,23 +48,23 @@
     </plugins>
   </build>
   <dependencies>
-  	<dependency>
-    	<groupId>javax.servlet</groupId>
-   		<artifactId>jsp-api</artifactId>
-    	<version>2.0</version>
-    	<scope>provided</scope>
-	</dependency>
-	<dependency>
-	    <groupId>javax.servlet</groupId>
-	    <artifactId>javax.servlet-api</artifactId>
-	    <version>3.0.1</version>
-	    <scope>provided</scope>
-	</dependency>
-	<dependency>
-	    <groupId>mysql</groupId>
-	    <artifactId>mysql-connector-java</artifactId>
-	    <version>8.0.28</version>
-	</dependency>
-	
+        <dependency>
+        <groupId>javax.servlet</groupId>
+                <artifactId>jsp-api</artifactId>
+        <version>2.0</version>
+        <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.0.1</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.28</version>
+        </dependency>
+
   </dependencies>
 </project>
