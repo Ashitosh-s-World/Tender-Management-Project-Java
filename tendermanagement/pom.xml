@@ -35,6 +35,13 @@
     </plugins>
   </build>
   <dependencies>
+	<dependency>
+    <groupId>com.newrelic.agent.java</groupId>
+    <artifactId>newrelic-java</artifactId>
+    <version>JAVA_AGENT_VERSION</version>
+    <scope>provided</scope>
+    <type>zip</type>
+</dependency>	  
   	<dependency>
     	<groupId>javax.servlet</groupId>
    		<artifactId>jsp-api</artifactId>
