@@ -41,7 +41,6 @@
     </configuration>
     </execution>
 </executions>
-</plugin>
 </plugin>   
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
